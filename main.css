@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "PlayfairDisplay";
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/PlayfairDisplay-Regular.woff2);
+    src: url(/fonts/PlayfairDisplay-Regular.woff);
+}
+
+@font-face {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/ProximaNova-Regular.woff2);
+    src: url(/fonts/ProximaNova-Regular.woff);
+}
+
+@font-face {
+    font-family: "FuturaPT";
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/FuturaPT-Heavy.woff);
+}
+
+
+body {
+    background: #464f54;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+.mainer {
+    max-width: 1060px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.position {
+    position: absolute;
+    top: 0;
+    right: 0; 
+    z-index: 10; 
+}
+
+.block-title {
+    background-color: #181818;
+    display: block;
+    width: 878px;
+    margin-left: auto;
+    margin-top: 48px;
+    padding: 46px 0 50px 58px;
+}
+
+.block-title h2 {
+    color: #ffffff;
+    font-family: PlayfairDisplay;
+    font-size: 48px;
+    border-bottom: 2px solid #545454;
+}
+
+.block-title h4 {
+    color: #464f54;
+    font-family: ProximaNova;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.block-formatting {
+    background-color: #f2b92b;
+    display: block;
+    margin-left: auto;
+    width: 812px;
+    font-size: 38px;
+    padding: 20px 0 20px 42px;
+}
+
+.block-article {
+    background-color: #ffffff;
+    position: relative;
+    max-width: 1060px;
+    margin: 150px auto;  
+    padding: 200px 127px;
+    box-shadow: 0px 0px 21px 0px #000000;
+}
+
+.block-article h3 {
+    font-family: ProximaNova;
+    font-size: 20px;
+    color: #b5b5b5;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.block-article h1 {
+    font-family: FuturaPT;
+    font-size: 78px;
+    color: #2a2a2a;
+    margin-bottom: -15px;
+}
+
+.block-article h2 {
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 30px;
+    color: #b5b5b5;
+    margin-bottom: 45px;
+}
+
+.block-article p {
+    font-size: 26px;
+    line-height: 40px;
+    text-align: justify;
+    color: #2a2a2a;
+    margin-bottom: 40px;
+}
+
+.block-article p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
